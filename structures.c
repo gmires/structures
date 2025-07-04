@@ -25,6 +25,9 @@ int main(int argc, char *argv[]) {
     data = malloc(sizeof(struct data_t));    
     data->value = 41;
     xvector_insert(v, 0, (data));
+    data = malloc(sizeof(struct data_t));    
+    data->value = 45;
+    xvector_push_back(v, (data));
 
     data = xvector_last(v);
     xvector_pop_back(v);
