@@ -1,1 +1,1 @@
-# stuctures
+# structures
